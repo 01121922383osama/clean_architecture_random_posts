@@ -1,4 +1,4 @@
-import 'package:clean_architecture/features/random_qoute/domain/entities/qoute.dart';
+import '../../domain/entities/qoute.dart';
 
 class QouteModels extends Qoute {
   const QouteModels({

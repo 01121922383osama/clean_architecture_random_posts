@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:clean_architecture/Core/API/api_consumer.dart';
-import 'package:clean_architecture/Core/API/app_interceptors.dart';
-import 'package:clean_architecture/Core/API/end_point.dart';
-import 'package:clean_architecture/Core/API/statuse_code.dart';
-import 'package:clean_architecture/Core/error/exceptions.dart';
-import 'package:clean_architecture/injection_container.dart' as di;
+import 'api_consumer.dart';
+import 'app_interceptors.dart';
+import 'end_point.dart';
+import 'statuse_code.dart';
+import '../error/exceptions.dart';
+import '../../injection_container.dart' as di;
 import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
 import 'package:flutter/foundation.dart';

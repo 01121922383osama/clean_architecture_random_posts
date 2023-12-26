@@ -1,8 +1,8 @@
-import 'package:clean_architecture/Config/Theme/app_theme.dart';
-import 'package:clean_architecture/Config/locale/app_localizations_setup.dart';
-import 'package:clean_architecture/Config/routes/app_routes.dart';
-import 'package:clean_architecture/Core/utils/app_strings.dart';
-import 'package:clean_architecture/features/Splah/presentation/cubit/locale_cubit.dart';
+import 'Config/Theme/app_theme.dart';
+import 'Config/locale/app_localizations_setup.dart';
+import 'Config/routes/app_routes.dart';
+import 'Core/utils/app_strings.dart';
+import 'features/Splah/presentation/cubit/locale_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

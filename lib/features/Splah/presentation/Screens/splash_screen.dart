@@ -1,5 +1,5 @@
-import 'package:clean_architecture/Config/routes/app_routes.dart';
-import 'package:clean_architecture/Core/utils/assets_manager.dart';
+import '../../../../Config/routes/app_routes.dart';
+import '../../../../Core/utils/assets_manager.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatelessWidget {

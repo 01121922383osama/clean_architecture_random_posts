@@ -1,6 +1,6 @@
-import 'package:clean_architecture/Core/API/api_consumer.dart';
-import 'package:clean_architecture/Core/API/end_point.dart';
-import 'package:clean_architecture/features/random_qoute/data/models/qoute_models.dart';
+import '../../../../Core/API/api_consumer.dart';
+import '../../../../Core/API/end_point.dart';
+import '../models/qoute_models.dart';
 
 import '../../../../Core/utils/app_strings.dart';
 

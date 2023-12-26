@@ -1,5 +1,5 @@
-import 'package:clean_architecture/Core/utils/app_colors.dart';
-import 'package:clean_architecture/features/random_qoute/domain/entities/qoute.dart';
+import '../../../../Core/utils/app_colors.dart';
+import '../../domain/entities/qoute.dart';
 import 'package:flutter/material.dart';
 
 class QouteContent extends StatelessWidget {

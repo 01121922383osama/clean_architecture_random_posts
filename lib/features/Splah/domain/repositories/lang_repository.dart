@@ -1,4 +1,4 @@
-import 'package:clean_architecture/Core/error/fialures.dart';
+import '../../../../Core/error/fialures.dart';
 import 'package:dartz/dartz.dart';
 
 abstract class LangRepository {

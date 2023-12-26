@@ -1,4 +1,4 @@
-import 'package:clean_architecture/Core/utils/hex_color.dart';
+import 'hex_color.dart';
 import 'package:flutter/material.dart';
 
 class AppColors {

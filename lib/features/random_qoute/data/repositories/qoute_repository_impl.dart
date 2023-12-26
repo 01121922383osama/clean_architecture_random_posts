@@ -1,10 +1,10 @@
-import 'package:clean_architecture/Core/Network/network_info.dart';
-import 'package:clean_architecture/Core/error/exceptions.dart';
-import 'package:clean_architecture/Core/error/fialures.dart';
-import 'package:clean_architecture/features/random_qoute/data/datasources/randome_qoute_local_data_sourece.dart';
-import 'package:clean_architecture/features/random_qoute/data/datasources/randome_qoute_remote_data_sourece.dart';
-import 'package:clean_architecture/features/random_qoute/domain/entities/qoute.dart';
-import 'package:clean_architecture/features/random_qoute/domain/repositories/qoute_reposatory.dart';
+import '../../../../Core/Network/network_info.dart';
+import '../../../../Core/error/exceptions.dart';
+import '../../../../Core/error/fialures.dart';
+import '../datasources/randome_qoute_local_data_sourece.dart';
+import '../datasources/randome_qoute_remote_data_sourece.dart';
+import '../../domain/entities/qoute.dart';
+import '../../domain/repositories/qoute_reposatory.dart';
 import 'package:dartz/dartz.dart';
 
 class QouteRepositoryImpl implements QouteRepository {

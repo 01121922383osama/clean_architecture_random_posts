@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:clean_architecture/Core/error/exceptions.dart';
-import 'package:clean_architecture/Core/utils/app_strings.dart';
-import 'package:clean_architecture/features/random_qoute/data/models/qoute_models.dart';
+import '../../../../Core/error/exceptions.dart';
+import '../../../../Core/utils/app_strings.dart';
+import '../models/qoute_models.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 abstract class RandomeQouteLocalDataSource {

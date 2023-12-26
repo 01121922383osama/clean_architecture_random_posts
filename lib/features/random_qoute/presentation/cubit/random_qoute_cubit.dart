@@ -1,11 +1,12 @@
-import 'package:clean_architecture/Core/UseCase/use_cases.dart';
-import 'package:clean_architecture/Core/error/fialures.dart';
-import 'package:clean_architecture/Core/utils/app_strings.dart';
-import 'package:clean_architecture/features/random_qoute/domain/entities/qoute.dart';
-import 'package:clean_architecture/features/random_qoute/domain/usecases/get_random_qoute.dart';
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../../../Core/UseCase/use_cases.dart';
+import '../../../../Core/error/fialures.dart';
+import '../../../../Core/utils/app_strings.dart';
+import '../../domain/entities/qoute.dart';
+import '../../domain/usecases/get_random_qoute.dart';
 
 part 'random_qoute_state.dart';
 

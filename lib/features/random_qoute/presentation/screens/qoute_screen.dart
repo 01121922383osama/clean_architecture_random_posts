@@ -1,9 +1,9 @@
-import 'package:clean_architecture/Config/locale/app_localizations.dart';
-import 'package:clean_architecture/Core/utils/app_colors.dart';
-import 'package:clean_architecture/Core/widgets/error_widget.dart';
-import 'package:clean_architecture/features/Splah/presentation/cubit/locale_cubit.dart';
-import 'package:clean_architecture/features/random_qoute/presentation/cubit/random_qoute_cubit.dart';
-import 'package:clean_architecture/features/random_qoute/presentation/widgets/qoute_content.dart';
+import '../../../../Config/locale/app_localizations.dart';
+import '../../../../Core/utils/app_colors.dart';
+import '../../../../Core/widgets/error_widget.dart';
+import '../../../Splah/presentation/cubit/locale_cubit.dart';
+import '../cubit/random_qoute_cubit.dart';
+import '../widgets/qoute_content.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

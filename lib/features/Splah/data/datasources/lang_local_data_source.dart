@@ -1,4 +1,4 @@
-import 'package:clean_architecture/Core/utils/app_strings.dart';
+import '../../../../Core/utils/app_strings.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 abstract class LocalDataSource {

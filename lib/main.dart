@@ -1,4 +1,4 @@
-import 'package:clean_architecture/injection_container.dart' as di;
+import 'injection_container.dart' as di;
 import 'package:flutter/material.dart';
 
 import 'app.dart';

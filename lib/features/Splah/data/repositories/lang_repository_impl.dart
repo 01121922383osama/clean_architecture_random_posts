@@ -1,6 +1,6 @@
-import 'package:clean_architecture/Core/error/exceptions.dart';
-import 'package:clean_architecture/Core/error/fialures.dart';
-import 'package:clean_architecture/features/Splah/data/datasources/lang_local_data_source.dart';
+import '../../../../Core/error/exceptions.dart';
+import '../../../../Core/error/fialures.dart';
+import '../datasources/lang_local_data_source.dart';
 import 'package:dartz/dartz.dart';
 
 import '../../domain/repositories/lang_repository.dart';

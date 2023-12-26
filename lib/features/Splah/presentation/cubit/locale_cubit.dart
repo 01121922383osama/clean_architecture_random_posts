@@ -1,7 +1,7 @@
-import 'package:clean_architecture/Core/UseCase/use_cases.dart';
-import 'package:clean_architecture/Core/utils/app_strings.dart';
-import 'package:clean_architecture/features/Splah/domain/usecases/cahnge_local.dart';
-import 'package:clean_architecture/features/Splah/domain/usecases/get_save_data.dart';
+import '../../../../Core/UseCase/use_cases.dart';
+import '../../../../Core/utils/app_strings.dart';
+import '../../domain/usecases/cahnge_local.dart';
+import '../../domain/usecases/get_save_data.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

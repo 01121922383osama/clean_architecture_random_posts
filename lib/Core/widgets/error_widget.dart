@@ -1,5 +1,5 @@
-import 'package:clean_architecture/Core/utils/app_colors.dart';
-import 'package:clean_architecture/Core/utils/media_query_value.dart';
+import '../utils/app_colors.dart';
+import '../utils/media_query_value.dart';
 import 'package:flutter/material.dart';
 
 import '../../Config/locale/app_localizations.dart';

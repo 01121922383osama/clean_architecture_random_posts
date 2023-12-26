@@ -1,4 +1,4 @@
-import 'package:clean_architecture/Core/error/fialures.dart';
+import '../error/fialures.dart';
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
 

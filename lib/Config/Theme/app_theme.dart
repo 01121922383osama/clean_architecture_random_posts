@@ -1,7 +1,7 @@
-import 'package:clean_architecture/Core/utils/app_strings.dart';
 import 'package:flutter/material.dart';
 
 import '../../Core/utils/app_colors.dart';
+import '../../Core/utils/app_strings.dart';
 
 ThemeData appTheme() {
   return ThemeData(
